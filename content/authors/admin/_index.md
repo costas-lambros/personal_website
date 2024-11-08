@@ -125,7 +125,7 @@ awards:
     url: https://economics.indiana.edu/news-events/hoosier-economics-conference/papers/Lambros,%20Costas%20George.pdf
     date: '2024-06-01'
     awarder: Indiana Unviersity Economics Department
-    icon: academic-cap
+    icon: hero/academic-cap
     summary: |
       Leaving this hear for later purposes.
 ---

@@ -22,7 +22,7 @@ sections:
       is_education_first: true
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Skills
       username: admin
     design:
       show_skill_percentage: true

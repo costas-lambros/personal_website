@@ -1,10 +1,12 @@
 ---
 title: 'Experience'
-date: 2023-10-24
+date: 2024-11-08
 type: landing
 
 design:
-  spacing: '5rem'
+      css_class: dark
+      background:
+        color: crimson
 
 # Note: `username` refers to the user's folder name in `content/authors/`
 
@@ -17,19 +19,15 @@ sections:
       # Hugo date format
       date_format: 'January 2006'
       # Education or Experience section first?
-      is_education_first: false
+      is_education_first: true
   - block: resume-skills
     content:
       title: Skills & Hobbies
       username: admin
     design:
-      show_skill_percentage: false
+      show_skill_percentage: true
   - block: resume-awards
     content:
       title: Awards
-      username: admin
-  - block: resume-languages
-    content:
-      title: Languages
       username: admin
 ---

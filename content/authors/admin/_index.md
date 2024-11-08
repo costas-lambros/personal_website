@@ -1,17 +1,17 @@
 ---
-# Display name
-title: 吳健雄
+design:
+  background:
+    # Choose a color such as from https://html-color-codes.info
+    color: 'navy'
+    # Text color (true=light, false=dark, or remove for the dynamic theme color).
+    text_color_light: true
 
-# Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# Display name
+title: Costas Lambros
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
-
-# Status emoji
-status:
-  icon: ☕️
+first_name: Costas
+last_name: Lambros
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +20,116 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: PhD Candidate
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Indiana University
+    url: https://economics.indiana.edu/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'cglambro@iu.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/costas-lambros
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: www.linkedin.com/in/costas-lambros
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
-  - icon: academicons/orcid
-    url: https://orcid.org/
+
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Behavioral Economics
+  - Game Theory
+  - Applied Microeconomics
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Economics
+    institution: Indiana University
+    date_start: 2021-08-01
+    date_end: 2026-05-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      
     button:
-      text: 'Read Thesis'
+      text: 'Read Thesis (Not Yet)'
       url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: BA/MA Economics
+    institution: Boston University
+    date_start: 2016-09-01
+    date_end: 2020-05-31
     summary: |
       GPA: 3.8/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Associate Instructor
+    company_name: Indiana University
     company_url: ''
     company_logo: ''
     date_start: 2021-01-01
     date_end: ''
     summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
+      - Taught Intro to Microeconomics, Introduction to Macroeconomics (2x), and Intermediate Micreconomics
+      - Prepared custom material for lectures
+      - Designed exams, review materials and homework assignments
+  - position: Teaching Assistant 
+    company_name: Indiana University
     company_url: ''
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2023-01-01
+    date_end: ''
     summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
+      - Aided Professor Avoyan in teaching PhD level Introduction to Microeconomics II 
+      - Held weekly recitations and office hours
+      - Graded all midterms and finals
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
+      - name: Matlab
+        description: ''
+        percent: 95
+        icon: devicon/matlab
+      - name: Econometrics
+        description: ''
+        percent: 95
+        icon: presentation-chart-line
+      - name: R
+        description: ''
+        percent: 75
+        icon: devicon/r
       - name: Python
         description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
+        percent: 50
+        icon: devicon/python
+      - name: Stata
         description: ''
-        percent: 100
+        percent: 50
         icon: chart-bar
-      - name: SQL
+      - name: Java
         description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
+        percent: 35
+        icon: devicon/java
 
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
+  - title: Third Year Paper Award
+    url: https://economics.indiana.edu/news-events/hoosier-economics-conference/papers/Lambros,%20Costas%20George.pdf
+    date: '2024-06-01'
+    awarder: Indiana Unviersity Economics Department
     icon: coursera
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      Leaving this hear for later purposes.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I am currently a fourth year PhD student in the Economics department at Indiana University. My research interests include microeconomic theory, particularly behavioral and game theory, as well as applied micreconomics. This website was made for an easier transition to the job market, and many links and information do not work or are not accurate. 

@@ -1,18 +1,20 @@
 ---
-title: 'Projects'
-date: 2024-05-19
+title: 'Works in Progress'
+date: ''
 type: landing
 
 design:
-  # Section spacing
-  spacing: '5rem'
+  background:
+    # Choose a color such as from https://html-color-codes.info
+    color: 'crimson'
 
+    
 # Page sections
 sections:
   - block: collection
     content:
-      title: Selected Projects
-      text: I enjoy making things. Here are a selection of projects that I have worked on over the years.
+      title: Works in Progress
+      text: 
       filters:
         folders:
           - project

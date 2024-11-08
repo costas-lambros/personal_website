@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Hugo Academic CV Theme</title>
+    <link>http://localhost:1313/project/</link>
+      <atom:link href="http://localhost:1313/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 08 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/media/icon_hu7729264130191091259.png</url>
+      <title>Projects</title>
+      <link>http://localhost:1313/project/</link>
+    </image>
+    
+    <item>
+      <title>Communication in Global Games - Theory and Experiment</title>
+      <link>http://localhost:1313/project/global-games/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/global-games/</guid>
+      <description>&lt;p&gt;Analyzes the effect that communication between players has in a global game. Theory is first developed and then tested against experimental data that is collected in a lab.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Distributional Treatment Effect in Models with Multiple Unordered Outcomes</title>
+      <link>http://localhost:1313/project/distributional/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/distributional/</guid>
+      <description>&lt;p&gt;We introduce a novel set of bounds that addresses
+distributional heterogeneity in treatment effects within models featuring multiple unordered outcomes. By incorporating the concept of superquantiles, we derive upper and lower bounds for individual treatment effects resulting from policy interventions. From an economic perspective, these bounds enable us to assess the impact of policy interventions on specific population groups, with a focus on identifying potential adverse effects on vulnerable segments in the presence of evaluation and selection problems. Specifically, we demonstrate how the superquantile framework allows a social
+planner to quantify the risk of harm to particular populations, accounting for both observable and unobservable factors in the design of policy interventions.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Pricing and Risk in Congested Industries</title>
+      <link>http://localhost:1313/project/congestion-games/</link>
+      <pubDate>Fri, 08 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/congestion-games/</guid>
+      <description>&lt;p&gt;Evaluate the inefficiency that risk aversion introduces into a congestion network. Monopoly pricing scheme then evaluated to see, under what conditions, efficiency may be restored.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
